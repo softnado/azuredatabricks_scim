@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AzureDatabricksClient.Scim
+{
+    public class PatchUserOperation
+    {
+        public string op { get; set; }
+
+        public string path { get; set; }
+
+        public List<PatchValue> value { get; set; }
+    }
+}

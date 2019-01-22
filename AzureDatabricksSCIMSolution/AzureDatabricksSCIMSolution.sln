@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDatabricksClient", "AzureDatabricksClient\AzureDatabricksClient.csproj", "{D877D294-E488-47E3-88CF-641B7A8CDB12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDatabricksSCIMSyncConsole", "AzureDatabricksSCIMSyncConsole\AzureDatabricksSCIMSyncConsole.csproj", "{D9E47846-381A-4345-9925-9F86AD55B939}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D877D294-E488-47E3-88CF-641B7A8CDB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D877D294-E488-47E3-88CF-641B7A8CDB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D877D294-E488-47E3-88CF-641B7A8CDB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D877D294-E488-47E3-88CF-641B7A8CDB12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E47846-381A-4345-9925-9F86AD55B939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E47846-381A-4345-9925-9F86AD55B939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E47846-381A-4345-9925-9F86AD55B939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E47846-381A-4345-9925-9F86AD55B939}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9333C14E-8D57-4CCF-90A5-B3B62197B5F7}
+	EndGlobalSection
+EndGlobal
